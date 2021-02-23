@@ -3,6 +3,8 @@ Script to process and convert .fbx file format to .npy file format only for huma
 
 The script needs the Blender to run. If you don't have Blender, then you can download it from the link below:
 
+https://www.blender.org/download/
+
 Once the Blender is downloaded, install it and add it's directory PATH to the ENVIRONMENT VARIABLES.
 
 A). To run the script:
