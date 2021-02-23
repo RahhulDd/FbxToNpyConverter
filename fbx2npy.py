@@ -6,7 +6,7 @@ import json
 from mathutils import Vector
 import numpy as np 
 
-HOME_FILE_PATH = os.path.abspath('C:\\Users\\dubs\\Desktop\\BlenderTrialMotionRetargeting2d\\homefile.blend')
+HOME_FILE_PATH = os.path.abspath('homefile.blend')
 MIN_NR_FRAMES = 64
 RESOLUTION = (512, 512)
 
@@ -16,13 +16,13 @@ BASE_JOINT_NAMES = ['Head', 'Neck',
                     'Hips', 'RightUpLeg', 'RightLeg', 'RightFoot', 'LeftUpLeg', 'LeftLeg', 'LeftFoot',
                     ]
 #Source directory where .fbx exist
-SRC_DATA_DIR ='C:\\Users\\dubs\\Desktop\\BlenderTrialMotionRetargeting2d\\regular'
+SRC_DATA_DIR ='./regular'
 
 #Ouput directory where .fbx to JSON dict will be stored
-OUT_DATA_DIR ='C:\\Users\\dubs\\Desktop\\BlenderTrialMotionRetargeting2d\\fbx2json'
+OUT_DATA_DIR ='./fbx2json'
 
 #Final directory where NPY files will ve stored
-FINAL_DIR_PATH ='C:\\Users\\dubs\\Desktop\\BlenderTrialMotionRetargeting2d\\json2npy'
+FINAL_DIR_PATH ='./json2npy'
 
 #Number of joints to be used from MixamoRig
 joint_names = ['mixamorig:' + x for x in BASE_JOINT_NAMES]
@@ -118,7 +118,7 @@ def jointDict2npy():
             
         print(save_path)
         
-        np.save(save_path+'\\'+'{i}.npy'.format(i=anim_name),motion)
+        np.save(save_path+'/'+'{i}.npy'.format(i=anim_name),motion)
         
 if __name__ == '__main__':
     
