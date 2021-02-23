@@ -16,13 +16,13 @@ BASE_JOINT_NAMES = ['Head', 'Neck',
                     'Hips', 'RightUpLeg', 'RightLeg', 'RightFoot', 'LeftUpLeg', 'LeftLeg', 'LeftFoot',
                     ]
 #Source directory where .fbx exist
-SRC_DATA_DIR ='./regular'
+SRC_DATA_DIR ='regular'
 
 #Ouput directory where .fbx to JSON dict will be stored
-OUT_DATA_DIR ='./fbx2json'
+OUT_DATA_DIR ='fbx2json'
 
 #Final directory where NPY files will ve stored
-FINAL_DIR_PATH ='./json2npy'
+FINAL_DIR_PATH ='json2npy'
 
 #Number of joints to be used from MixamoRig
 joint_names = ['mixamorig:' + x for x in BASE_JOINT_NAMES]
