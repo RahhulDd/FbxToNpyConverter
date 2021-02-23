@@ -5,6 +5,10 @@ The script needs the Blender to run. If you don't have Blender, then you can dow
 
 https://www.blender.org/download/
 
+For Mixamo Data, use this link:
+
+https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack&limit=96
+
 Once the Blender is downloaded, install it and add it's directory PATH to the ENVIRONMENT VARIABLES.
 
 A). To run the script:
