@@ -9,6 +9,10 @@ For Mixamo Data, use this link:
 
 https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack&limit=96
 
+For a larger dataset, I recommed using the download script provided in the link below:
+
+https://forums.unrealengine.com/community/community-content-tools-and-tutorials/1376068-script-mixamo-download-script
+
 Once the Blender is downloaded, install it and add it's directory PATH to the ENVIRONMENT VARIABLES.
 
 A). To run the script:
