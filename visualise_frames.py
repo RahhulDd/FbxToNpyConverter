@@ -4,7 +4,7 @@ import os
 import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
 
-def visualise_frames(pathtonpy='./json2np/Aim Pistol/Aim Pistol.npy',up_view=0,side_view=90,x_lim=[-2,2],y_lim=[-2,2],z_lim=[-2,2]):
+def visualise_frames(pathtonpy='json2np/Aim Pistol/Aim Pistol.npy',up_view=0,side_view=90,x_lim=[-2,2],y_lim=[-2,2],z_lim=[-2,2]):
     #MIXAMO DATASET
     """
     Each POSE follow the given index joints below:
@@ -52,4 +52,4 @@ def visualise_frames(pathtonpy='./json2np/Aim Pistol/Aim Pistol.npy',up_view=0,s
         offset_sum = offset_sum+offset
 
 if __name__='__main__':
-  visualise_frames()
+    visualise_frames()
