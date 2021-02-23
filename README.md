@@ -11,4 +11,4 @@ To run the script:
  3. Type the command: 'blender --background -P fbx2npy.py'
  4. If you installed and add Blender directory PATH correctly, then above command won't be a problem.
 
-Voila!! you have prepared the .npy files for you ML/DL project or anything else.
+Voila!! you have prepared the .npy files for your ML/DL project or anything else.
