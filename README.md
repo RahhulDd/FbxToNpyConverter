@@ -1,4 +1,4 @@
-# FbxToNpyConverter
+# FBX-to-NPY Converter
 Script to process and convert .fbx file format to .npy file format only for human motion analysis.
 
 The script needs the Blender to run. If you don't have Blender, then you can download it from the link below:
