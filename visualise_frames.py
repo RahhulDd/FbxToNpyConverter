@@ -1,3 +1,9 @@
+import numpy as np
+import pandas as pd
+import os
+import matplotlib.pyplot as plt
+from mpl_toolkits import mplot3d
+
 def visualise_frames(pathtonpy='./json2np/Aim Pistol/Aim Pistol.npy',up_view=0,side_view=90,x_lim=[-2,2],y_lim=[-2,2],z_lim=[-2,2]):
     #MIXAMO DATASET
     """
