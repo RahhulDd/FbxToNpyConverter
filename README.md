@@ -11,4 +11,6 @@ To run the script:
  3. Type the command: 'blender --background -P fbx2npy.py'
  4. If you installed and add Blender directory PATH correctly, then above command won't be a problem.
 
+To visualise the .npy generated files, use 'visualise_frames.py'. This only works with single .npy file so be careful to mention PATH to .npy file.
+
 Voila!! you have prepared the .npy files for your ML/DL project or anything else.
